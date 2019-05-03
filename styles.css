@@ -1,0 +1,95 @@
+body
+{
+	background-color:#242582;
+	font-family: verdana;
+}	
+#desc{
+	font-size:20px;
+	color:#F64C72;
+}
+#paytab
+{
+	text-align:center;
+	color:#99738E;
+	background-color:#553D67;
+}	
+.headerpart
+{
+	width:100%;
+	height:25%;
+	border-style:groove;
+    background-color:#242582;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.linkspart
+{
+	width:100%;
+	height:5%;
+	margin-top:0.5%;
+	background-color:#2F2FA2;
+	border-style:groove;
+}
+.linkspart a
+{
+	color:#F64C72;
+}
+.linkspart a:hover
+{
+	background-color:#2F2FA2;
+	color:#99738E;
+}
+.bodypart
+{ 
+	width:100%;
+	height:100%;
+	margin-top:0.5%;
+}
+
+.bodypart .imagepart
+{
+	width:1000px;
+	height:500px;
+	border-style:groove;
+	margin-left:0.25%;
+	margin-top:0.5%;
+	margin-right:0.25%;
+	display:inline-block;
+}
+.bodypart .newspart
+{
+	height:500px;
+	display:inline-block;
+	width:450px;
+	border-style:groove;
+	padding-left:1%;
+	float:right;
+	margin-right:0.25%;
+	margin-top:0.5%;
+	margin-left:0.25%;
+}
+.bodypart .newspart h2
+{
+	color:#F64C72;
+}
+.bodypart .newspart .news h4
+{
+	color:#553D67;
+}
+.bodypart .newspart .news p
+{
+	color:#99738E;
+}
+.bodypart .quotespart
+{
+	font-style:italic;
+	color:mediumvioletred;
+}
+.bodypart .quotespart p
+{
+	text-align:right;
+}
+.contact p,h4,p,p
+{
+	color:#F64C72;
+}
