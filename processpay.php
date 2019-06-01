@@ -18,7 +18,7 @@
 		die("connection failed: ". $conn->connect_error);
 	}
 	
-	$sql="update students set paid_fee='$amt',due_fee=due_fee-'$amt.' where rollno='$roll'";
+	$sql="update students set paid_fee='$amt',due_fee=due_fee-'$amt' where rollno='$roll'";
 	$conn->query($sql);
 	$conn->close();
 	echo '<script type="text/javascript">
