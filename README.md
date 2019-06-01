@@ -1,4 +1,4 @@
-# PrairieMS
+# Prairie Middle School
 A website developed for a middle school using HTML/CSS, JavaScript, PHP &amp; MySQL.
 By Tayeeb Hasan 
 @flozender
